@@ -3,3 +3,7 @@ main = "src/index.js"
 compatibility_date = "2025-04-01"
 [env.production]
 route = "ssrf-test.mananispiwpiw.my.id/*"
+[observability.logs]
+enabled = true
+invocation_logs = true
+
